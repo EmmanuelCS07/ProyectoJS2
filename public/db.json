@@ -1,0 +1,45 @@
+{
+  "usuarios": [
+    {
+      "id": "123",
+      "nombre": "Emmanuel",
+      "password": "1234",
+      "rol": "usuario"
+    },
+    {
+      "id": "456",
+      "nombre": "Jeanca",
+      "password": "5678",
+      "rol": "usuario"
+    },
+    {
+      "id": "999",
+      "nombre": "admin",
+      "password": "admin123",
+      "rol": "admin"
+    }
+  ],
+  "solicitudes": [
+    {
+      "estado": "Rechazado",
+      "id": "1"
+    }
+  ],
+  "computadoras": [
+    {
+      "id": "PC-001",
+      "modelo": "MAC",
+      "estado": "Disponible"
+    },
+    {
+      "id": "PC-002",
+      "modelo": "HP",
+      "estado": "Disponible"
+    },
+    {
+      "id": "PC-003",
+      "modelo": "DELL",
+      "estado": "Ocupado"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="solicitud.css">
+</head> 
+<body>
+    <div class="form-container">
+        <h2>Solicitud de Permiso</h2>
+        <form id="solicitud-form">
+            <label for="userId">ID de Usuario:</label>
+            <input type="text" id="userId" >
+
+            <label for="sede">Sede:</label>
+            <select id="sede" >
+                <option value="Sede 1">Sede 1</option>
+                <option value="Sede 2">Sede 2</option>
+                <option value="Sede 3">Sede 3</option>
+            </select>
+
+            <label for="fechaSalida">Fecha de Salida:</label>
+            <input type="date" id="fechaSalida" >
+
+            <label for="fechaRegreso">Fecha de Regreso:</label>
+            <input type="date" id="fechaRegreso" >
+
+            <label for="codigoComputadora">Código de la Computadora:</label>
+            <input type="text" id="codigoComputadora" >
+
+            <label>
+                <input type="checkbox" id="aceptarCondiciones" >
+                Acepto las condiciones de uso.
+            </label>
+            
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+        <p id="mensaje" class="mensaje"></p>
+    </div>
+</body>
+<script type="module" src="solicitud.js"></script>
+</html>
